@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const list = ['Tummy Rooters', 'Jeans Baltar Lil Boo Hammond', 'Lucy Liu', 'Sagan Mccrorey', 'Gustard']
+  const list = ['Tummy Rooters', 'Jeans Baltar Lil Boo Hammond', 'Lucy Liu', 'Sagan Mccrorey', 'Gustard', 'Buster Naughton', 'Mac Naughton']
 
   const [filterList, setFilterList] = useState(list)
 
