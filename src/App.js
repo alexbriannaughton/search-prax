@@ -24,10 +24,13 @@ function App() {
       <div id='search-div'>
         {'lookie=>'} <input name='query' type="text" onChange={handleSearch} />
       </div>
-      {filterList &&
+      <div id='list-div'>
+        {filterList &&
         filterList.map((pet) => (
-          <h2 key={pet}>{pet}</h2>
+          <h3 key={pet}>{pet}</h3>
         ))}
+      </div>
+      
     </div>
   );
 }
